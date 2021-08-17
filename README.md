@@ -1,1 +1,9 @@
-# DPI_3a_N_2021_2
+*** Disciplina: Desenvolvimento para Internet
+
+Dia: TERÇA-FEIRA
+
+Período: NOITE
+
+## Prof. Hebert Bratefixe Alquimim
+
++e-mail: [hebert@uni9.pro.br](mailto:hebert@uni9.pro.br)
