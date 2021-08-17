@@ -1,4 +1,4 @@
-*** Disciplina: Desenvolvimento para Internet
+Disciplina: Desenvolvimento para Internet
 
 Dia: TERÇA-FEIRA
 
