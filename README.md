@@ -1,8 +1,6 @@
-Disciplina: Desenvolvimento para Internet
-
-Dia: TERÇA-FEIRA
-
-Período: NOITE
+## Desenvolvimento para Internet
+* **Dia:** Terça-Feira 
+* **Período:** Noite
 
 ## Prof. Hebert Bratefixe Alquimim
 
