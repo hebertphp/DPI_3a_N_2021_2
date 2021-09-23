@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>background-repeat</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width:100%;
+            height: 300px;
+        }
+        .container div{
+            height: 220px;
+            margin: 0px auto 10px;
+            text-align: center;
+            font-size: 2em;
+            border: 2px solid red;
+        }
+        .rep1{
+            background-image: url(img/css.png);
+            background-repeat: no-repeat; 
+        }
+        .rep2{
+            background-image: url(img/css.png);
+            background-repeat: repeat; /* repeat-x, repeat-y */
+        }
+        .rep3{
+            background-image: url(img/css.png);
+            background-repeat: space;
+        }
+        .rep4{
+            background-image: url(img/css.png);
+            background-repeat: round;
+        }
+
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div class="rep1">background-repeat: no-repeat</div>
+        <div class="rep2">background-repeat: repeat,  use repeat-x repeat-y</div>
+        <div class="rep3">background-repeat: space</div>
+        <div class="rep4">background-repeat: round</div>
+    </section>
+</body>
+</html>

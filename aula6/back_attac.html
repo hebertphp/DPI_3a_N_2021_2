@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>background-attachment</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width:100%;
+            height: 300px;
+        }
+        .container div{
+            height: 500px;
+            margin: 0px auto 10px;
+            text-align: justify;
+            font-size: 2em;
+            border: 2px solid red;
+        }
+        .att1{
+            background-image: url(img/css.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .att2{
+            background-image: url(img/css.png);
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+        }
+
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div class="att1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nisi numquam pariatur possimus sunt molestias cumque officiis deleniti. Culpa totam, vel neque minus odit praesentium ullam fugit molestias omnis veritatis vitae inventore, laborum nisi aut cum quisquam? Saepe asperiores, aperiam cupiditate reprehenderit ullam illo eligendi facilis, quidem exercitationem ea optio modi laudantium deleniti iste incidunt explicabo officiis maiores? Quidem, veritatis perspiciatis eaque illo inventore aliquam architecto dolor earum eligendi vero quibusdam. Minima sit quasi nostrum harum earum quisquam quia. Commodi, in harum hic recusandae, officia sapiente error sint ullam pariatur dolorem perspiciatis repellendus placeat nam necessitatibus cupiditate, iure veniam non?            
+        </div>
+    <section class="container">
+        <div class="att2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nisi numquam pariatur possimus sunt molestias cumque officiis deleniti. Culpa totam, vel neque minus odit praesentium ullam fugit molestias omnis veritatis vitae inventore, laborum nisi aut cum quisquam? Saepe asperiores, aperiam cupiditate reprehenderit ullam illo eligendi facilis, quidem exercitationem ea optio modi laudantium deleniti iste incidunt explicabo officiis maiores? Quidem, veritatis perspiciatis eaque illo inventore aliquam architecto dolor earum eligendi vero quibusdam. Minima sit quasi nostrum harum earum quisquam quia. Commodi, in harum hic recusandae, officia sapiente error sint ullam pariatur dolorem perspiciatis repellendus placeat nam necessitatibus cupiditate, iure veniam non?            
+        </div>
+    </section>   
+</body>
+</html>

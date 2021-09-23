@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Gradient - Degradê</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width:100%;
+            height: 300px;
+        }
+        .container div{
+            height: 150px;
+            margin: 0px auto 10px;
+            text-align: center;
+            font-size: 2.5em;
+        }
+        .grad1{
+            background-image: linear-gradient(red,green,blue);
+        }
+        .grad2{
+            background-image: linear-gradient(45deg, red,green,blue);
+        }
+        .grad3{
+            background-image: linear-gradient(
+                                    to bottom left, /* top right bottom left  */
+                                     rgb(255, 0, 0),
+                                     rgba(0, 255, 0, 0.781),
+                                     rgb(0, 0, 255)
+                                     );
+        }
+        .grad4{
+            background-image: radial-gradient(red, green,blue);
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div class="grad1">red green blue cima para baixo(default)</div>
+        <div class="grad2">red green blue 45graus</div>
+        <div class="grad3">red green blue para baixo esquerda</div>
+        <div class="grad4">radial red green blue</div>
+</section>
+</body>
+</html>
