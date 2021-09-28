@@ -10,3 +10,11 @@
 .cor3{
     background-color: #0000ff;
 }
+.cor4{
+    /* R G B Decimal: 0 - 255  */
+    color:rgb(0,0,255);
+}
+.cor5{
+    /* R G B Porcentagem: 0% - 100%*/
+    color:rgb(100%,0%,0%);
+}
