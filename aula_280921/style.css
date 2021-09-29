@@ -18,3 +18,7 @@
     /* R G B Porcentagem: 0% - 100%*/
     color:rgb(100%,0%,0%);
 }
+.cor6{
+    /* cor de fundo cinza claro com RGB*/
+    background-color: rgb(75%,75%,75%);
+}
