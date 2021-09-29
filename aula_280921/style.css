@@ -34,6 +34,9 @@
 .cor10{
     background-color: hsl(0,0%,100%);
 }
+#dv2{
+    border: 5px dashed hsl(0,0%,70%);
+}
 /*
 quero montar uma cor vermelho
 Nome da cor em inglês: red
