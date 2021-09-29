@@ -22,3 +22,22 @@
     /* cor de fundo cinza claro com RGB*/
     background-color: rgb(75%,75%,75%);
 }
+.cor7{
+    background-color: hsla(38, 61%, 25%, 0.431);
+}
+.cor8{
+    background-color:hsl(240,70%,50%)
+}
+.cor9{
+    background-color: hsl(0,0%,0%);
+}
+.cor10{
+    background-color: hsl(0,0%,100%);
+}
+/*
+quero montar uma cor vermelho
+Nome da cor em inglês: red
+Hexadecimal: #ff0000
+RGB: rgb(255,0,0)
+HSL: hsl(0,100%,50%) 
+*/
