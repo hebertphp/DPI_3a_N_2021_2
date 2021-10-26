@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>background-origin</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            min-width:100vw;
+            height: 500px;     
+        }
+        .container div{
+            border: 10px dashed darkblue;
+            padding: 25px;
+            background-repeat: no-repeat;
+        }
+        .orig1{
+            background: url(https://source.unsplash.com/1600x900/?floresta);
+            background-origin: padding-box;
+        }
+        .orig2{
+            background: url(https://source.unsplash.com/1600x900/?computer);
+            background-origin: border-box;
+        }
+        .orig3{
+            background: url(https://source.unsplash.com/1600x900/?waterfalls);
+            background-origin: content-box;
+        }
+</style>
+</head>
+<body>
+    <section class="container">
+        <h1>background-origin: padding-box  Default</h1>
+        <div class="orig1"><h2>padding-box</h2><p>Texto</p></div>
+        <h1>background-origin: border-box;</h1>
+        <div class="orig2"><h1>border-box</h1><p>Texto</p></div>
+        <h1>background-origin: content-box</h1>
+        <div class="orig3"><h1>content-box</h1><p>Texto</p></div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>background-position</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width:100%;
+            height: 300px;
+        }
+        .container div{
+            height: 150px;
+            margin: 0px auto 10px;
+            text-align: center;
+            font-size: 2em;
+            border: 2px solid red;
+            background-image: url(img/css.png);
+            background-repeat: no-repeat; 
+        }
+        .rep1{
+            background-position: top right;
+        }
+        .rep2{
+            background-position: center center;
+        }
+        .rep3{
+            background-position: 50% 20%;
+        }
+        .rep4{
+            background-position: -30px 50px;
+        }
+</style>
+</head>
+<body>
+    <section class="container">
+        <div class="rep1">background-position: top right</div>
+        <div class="rep2">background-position: center center</div>
+        <div class="rep3">background-position: 50% eixo(x) 20% eixo(y)</div>
+        <div class="rep4">background-position: -30px eixo(x) 50px eixo(y)</div>
+
+    </section>
+</body>
+</html>

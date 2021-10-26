@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>background-size</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            min-width:100vw;
+            height: 500px;
+        }
+        .container div{
+            height: 250px;
+            margin: 0px auto 10px;
+            text-align: center;
+            font-size: 2em;
+            border: 2px solid red;
+            background-image: url(img/montanha1.jpg);
+            background-repeat: no-repeat;
+            background-position: center center; 
+        }
+        .size1{
+            background-size: 200px;
+        }
+        .size2{
+            background-size: 50%;
+        }
+        .size3{
+            background-size: cover;
+        }
+        .size4{
+            background-size: contain;
+        }
+</style>
+</head>
+<body>
+    <section class="container">
+        <div class="size1"><h1>background-size: 200px;</h1></div>
+        <div class="size2"><h1>background-size: 50%;</h1></div>
+        <div class="size3"><h1>background-size: cover;</h1></div>
+        <div class="size4"><h1>background-size: contain;</h1></div>
+    </section>
+</body>
+</html>
