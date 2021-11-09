@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <title>Background-image</title>
     <style>
+        :root{
+            --img1: url(https://source.unsplash.com/1600x900/?montain);
+            --img2: url(img/computadores.jpg);
+            --img3: 'img/computadores.jpg';
+            --img4: background-image: url('img/computadores.jpg');
+            --image-from-somewhere: url(https://codersblock.com/assets/images/logo.png);
+        }
         *{
             margin:0;
             padding: 0;
@@ -12,12 +19,10 @@
         .back-img{
             width: 100%;
             height: 400px;
-            background-image: url(imagem/montanha1.jpg);
-            /* 
-            No Vscode, para carregar arquivo, pressionar
-            [Ctrl][espaço]- Dica Ricardo Vasconcellos
-            Digitar ./ - Dica Henrique Silva  
-             */
+            background-image: var(--image-from-somewhere);
+            /* background-image: url('img/computadores.jpg'); */
+            /*https://source.unsplash.com/1600x900/?montain' */
+            
         }
         .back-img h2{
             padding-top: 200px;

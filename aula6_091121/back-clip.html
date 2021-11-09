@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>background-clip</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            min-width:100vw;
+            height: 500px;     
+        }
+        .container div{
+            border: 10px dashed darkblue;
+            padding: 25px;
+            background-repeat: no-repeat;
+        }
+        .clip1{
+            background: hsl(240, 50%, 80%);
+            background-clip: padding-box;
+        }
+        .clip2{
+            background: hsl(240, 50%, 80%);;
+            background-clip: border-box;
+        }
+        .clip3{
+            background: hsl(240, 50%, 80%);;
+            background-clip: content-box;
+        }
+</style>
+</head>
+<body>
+    <section class="container">
+        <h1>background-clip: padding-box</h1>
+        <div class="clip1"><h2>padding-box</h2><p>Texto</p></div>
+        <h1>background-clip: border-box - Default</h1>
+        <div class="clip2"><h1>border-box</h1><p>Texto</p></div>
+        <h1>background-clip: content-box</h1>
+        <div class="clip3"><h1>content-box</h1><p>Texto</p></div>
+    </section>
+</body>
+</html>
