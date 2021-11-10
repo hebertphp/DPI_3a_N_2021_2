@@ -6,10 +6,13 @@
 .back-img{
     width: 100%;
     height: 400px;
-    background-image: url(../imagem/computadores.jpg);
+    background-image: url(../imagem/montanha1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-   
+    background-size: cover;
+    background-position: center bottom;
+
+    /* background: */
 }
 .back-img h2{
     width:100%;
