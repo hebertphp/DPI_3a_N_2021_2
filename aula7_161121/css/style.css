@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.back-img{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/lobinho1.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: center;     */
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+/*
+    display: flex;
+    flex-direction: column | column-reverse | row | row-reverse;
+    justify-content: flex-start | flex-end | center| space-around | space-between | space-evenly
+    align-items: flex-end | flex-start | center;
+    flex-wrap: wrap;
+*/
+}
+
+.imagem{
+    width: 300px;
+    text-align: center;
+}
+.imagem img{
+    width: 300px;
+    opacity: 0.5;
+    border: 2px solid white;  
+}
+.imagem p{
+    color: white;
+    font-size: 1em;
+    background-color: hsla(0,0%,30%,0.5);
+    height: 50px;
+}
