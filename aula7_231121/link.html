@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Link</title>
+<style>
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        width: 100vw;
+        background-color: hsla(0, 0%, 96%, 0.459);
+        position: fixed;
+        top: 0;
+        z-index: 90;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+    }
+    .logo img{
+        height: 40px;
+    }
+    header h2{
+        margin-left: 5px; 
+    }
+    nav{
+        margin-right: 20px;
+        text-align: center;
+    }
+    nav ul{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    nav ul li{
+        margin-left: 10px;
+    }
+    nav a{
+        text-decoration: none;
+        transition: 0.3s;
+        color: black;
+    }
+    nav a:hover{
+        border-bottom: 5px solid gray;
+        color: gray;
+    }
+    .banner{
+        height: 300px;
+        width: 100vw;
+        background-image: url(img/lobinho2.jpg);
+        background-size: cover;
+        background-position: 50% 70%;
+        margin-top: 50px;
+        padding-bottom: 50px;
+        background-attachment: fixed;
+        position:relative;
+        z-index: -5;
+    }
+    .banner div{
+        position:absolute;
+        top: 100px;
+        left: 50px;
+        background-color:hsla(0, 0%, 96%, 0.459);
+    }
+    section{
+        width: 50vw;
+        margin: 10px auto;
+    }
+    section h3{
+        margin-top: 300px;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+        <a href="link.html"><img src="img/logo.png"></a>
+        <h2 id="logo">Empresa</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="img.html">IMG</a></li>
+                <li><a href="http://www.uninove.br">Uninove</a></li>
+                <li><a href="http://www.uninove.br" target="_blank">Uninove - Blank</a></li>
+                <li><a href="#tp5">Tópico 5</a></li>
+            </ul>    
+        </nav>
+    </header>
+    <section class="banner">
+        <div>
+        <h1>Bem vindo a empresa!</h1>
+        <div>
+    </section>
+    <section>
+        <h3 id="tp1">Tópico 1</h3>
+
+        <a href="img/lobinho2.jpg" >Lobinho 2</a>
+        <a href="img/lobinho2.jpg" download>Lobinho 2 - Download</a>
+        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus animi ipsa sed enim! Quae accusantium delectus incidunt repellat consectetur expedita sit sunt excepturi quod laborum, quidem eaque nemo voluptate at modi sint similique officiis nesciunt quis optio ab! Rerum atque cumque accusantium, vitae placeat porro nobis tenetur harum officiis accusamus.
+        </p>
+        <h3 id="tp2">Tópico 2</h3>
+        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus animi ipsa sed enim! Quae accusantium delectus incidunt repellat consectetur expedita sit sunt excepturi quod laborum, quidem eaque nemo voluptate at modi sint similique officiis nesciunt quis optio ab! Rerum atque cumque accusantium, vitae placeat porro nobis tenetur harum officiis accusamus.
+        </p>
+        <h3 id="tp3">Tópico 3</h3>
+        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus animi ipsa sed enim! Quae accusantium delectus incidunt repellat consectetur expedita sit sunt excepturi quod laborum, quidem eaque nemo voluptate at modi sint similique officiis nesciunt quis optio ab! Rerum atque cumque accusantium, vitae placeat porro nobis tenetur harum officiis accusamus.
+        </p>
+        <h3 id="tp4">Tópico 4</h3>
+        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus animi ipsa sed enim! Quae accusantium delectus incidunt repellat consectetur expedita sit sunt excepturi quod laborum, quidem eaque nemo voluptate at modi sint similique officiis nesciunt quis optio ab! Rerum atque cumque accusantium, vitae placeat porro nobis tenetur harum officiis accusamus.
+        </p>
+        <h3 id="tp5">Tópico 5</h3>
+        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus animi ipsa sed enim! Quae accusantium delectus incidunt repellat consectetur expedita sit sunt excepturi quod laborum, quidem eaque nemo voluptate at modi sint similique officiis nesciunt quis optio ab! Rerum atque cumque accusantium, vitae placeat porro nobis tenetur harum officiis accusamus.
+        </p>
+    </section>
+</body>
+</html>
