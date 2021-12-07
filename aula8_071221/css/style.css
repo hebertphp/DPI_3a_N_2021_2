@@ -1,6 +1,7 @@
 legend{
-background-color: blueviolet;
+    background-color: blueviolet;
+    margin: 0 auto;
 }
 #cep{
-background-color: yellow;
+    background-color: yellow;
 }
