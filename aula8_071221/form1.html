@@ -31,14 +31,17 @@
             <input type="radio" name="rede5g" value="talvez"> Talvez<br>
 
             Selecione UF
-            <select name="uf">
-                <option>SP</option>
-                <option>RJ</option>
-                <option>MG</option>
-                <option>SC</option>
-                <option>ES</option>
-                <option>AC</option>
+            <select name="uf" required>
+                <option value="">Selecione</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">MG</option>
+                <option value="SC" >SC</option>
+                <option value="ES">ES</option>
+                <option value="AC">AC</option>
             </select><br>
+            Digite uma mensagem ou observação.
+            <textarea name="obs" id="obs" cols="30" rows="10"></textarea>
             <input type="submit" value="Enviar"><input type="reset" value="Limpar">
         </fieldset>
     </form>
