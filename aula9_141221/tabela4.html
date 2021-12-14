@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabela4</title>
+    <style>
+        table, td, th{
+            border:1px solid gray;
+            border-collapse: collapse;
+            width: 300px;
+        }
+        td{
+            text-align: center;
+        }
+        .bold{
+            font-weight: bold;
+            background-color: cadetblue;
+        }
+        table{
+            margin:10px auto;
+        }
+        caption{
+            caption-side: bottom;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Alunos: RA, Nome e Nota</caption>
+        <tr>
+            <th>Ra</th>
+            <th>Nome</th>
+            <th>Nota</th>
+        </tr>
+        <tr>
+            <td>123456789</td>
+            <td>Belarmina</td>
+            <td>9</td>
+        </tr>
+      <tr>
+            <td>123456798</td>
+            <td>Pafuncio</td>
+            <td>7</td>
+        </tr>
+      <tr>
+            <td>123457689</td>
+            <td>Abelardo</td>
+            <td>8</td>
+        </tr>
+        <tr class="bold">
+            <td colspan="2">Média do alunos:</td>
+            <td>8</td>
+        </tr>
+    </table>
+</body>
+</html>
