@@ -43,7 +43,7 @@
         }
    
         https://www.w3schools.com/cssref/sel_nth-child.asp
-        */
+        
          tr:first-child {
             background-color: yellow;
         }
@@ -53,9 +53,11 @@
         tr:nth-child(2),tr:nth-child(3) {
             background: blue;
         }
+        */
         caption{
             /* text-align: right; */
             caption-side: bottom;
+            margin:0px;
         }
     </style>
 </head>
@@ -67,6 +69,7 @@
             <th>Nome</th>
             <th>Sala</th>
             <th>Semestre</th>
+            <td rowspan="6">E Agora?</td>
         </tr>
         <tr>
             <td>1234567</td>
@@ -85,6 +88,14 @@
             <td>Apolinario</td>
             <td>11</td>
             <td>2</td>
+        </tr>
+        <tr>
+            <td >Mesclada</td>
+            <td >Sala</td>
+            <td colspan="2">Semestre</td>
+        </tr>
+        <tr>
+            <td colspan="4">Última Linha</td>
         </tr>
     </table>
     <hr>
