@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\style.css">
+    <title>Viajar</title>
+</head>
+<body>
+    
+    <section class="showcase">
+        <header>
+          <h2 class="logo">Viajar...</h2>
+        </header>
+        <video src="video/floresta.mp4" muted loop autoplay id="vid"></video>
+        <div class="overlay"></div>
+        <div class="text">
+          <h2>Sempre é tempo.... </h2> 
+          <h3>Explore lugares fantásticos.</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.</p>
+          <a href="#" onclick="muda()" id="ex">Clique aqui e explore o mar..</a>
+        </div>
+        <ul class="social">
+          <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+          <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+          <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+        </ul>
+      </section>
+<script>
+    var n;
+    n=0;
+    var video=['./video/mar.mp4','./video/floresta.mp4']
+    function muda(){
+        var vid= document.getElementById('vid');
+        var ex= document.getElementById('ex');
+
+       if (n==0){
+            vid.src=video[n];
+            ex.innerHTML="Clique aqui e volte para Floresta.."
+            n=1;
+        }
+        else{
+            vid.src=video[n];
+            ex.innerHTML="Clique aqui e explore o mar.."
+            n=0;
+        }      
+    }
+</script>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Var Css</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        :root{
+            --cor1:blue;
+            --cor2:red;
+            --cor3:255;
+            --largura: 40%;
+            --altura:200px;
+            --centro: 10px auto;
+            --h:240;
+            --s:100%;
+            --l:50%;
+            --min:600px;
+            --max:900px;
+            --fsize:1.5rem;
+        }
+        .dv1{
+            background-color: hsl(var(--h),var(--s),var(--l));
+            color:rgb(var(--cor3),var(--cor3),var(--cor3));
+            width:var(--largura);
+            height:var(--altura);
+            margin:var(--centro);
+        }
+        .dv1:hover{
+            --l:30%;
+            --cor3:0;
+            font-size: var(--fsize);
+        }
+        @media screen and (max-width: 900px)  {
+            .dv1{
+                --h:0;
+                --altura:100px;
+            }
+        }
+        /*        
+        @media screen and (min-width: 600px) and (max-width: 900px), (max-width: 500px)  {
+            .dv1{
+                --h:0;
+                --altura:100px;
+            }
+
+        }
+        */
+    </style>
+</head>
+<body>
+    <div class="dv1">
+        Primeira div
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Var Css - 0</title>
+    <style>
+        :root{
+            --altura: 100px;
+            --largura: 800px;
+            --centro: 50px auto;
+            --cor1-hsl: 0,100%,50%;
+
+            --bg-h:240;
+            --bg-s:100%;
+            --bg-l:50%;
+
+            --c-h:0;
+            --c-s:0%;
+            --c-l:100%;
+
+            --borda: 5px dotted black;
+            /* --cor:rgb(255, 179, 182); */
+        }
+        .dv1{
+            background-color: hsl(var(--bg-h),var(--bg-s),var(--bg-l));
+            color:hsl(var(--c-h),var(--c-s),var(--c-l));
+            /* text-align: center; */
+            height: var(--altura);
+            width: var(--largura);
+            margin: var(--centro);
+            border: var(--borda);
+        }
+        .dv1:hover{
+            --bg-l:90%;  
+            --c-l:0%;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="dv1">
+        <p>Primeiro parágrafo</p>
+    </div>
+</body>
+</html>
